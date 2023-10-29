@@ -7,7 +7,8 @@ Libraries
 2.	OS Library: The OS library in Python is a standard library module that provides a platform-independent way to interact with the operating system. It allows you to perform various operating system-related tasks, such as working with files and directories, executing system commands, and accessing environment variables. The os module is an essential part of many Python programs that need to interact with the file system or manage system-related tasks.
 
 
-Code Explanations:
+Code Explanations
+
 1.print_grid(grid) is a function to print the game grid.
 2.initialize_grid(size, mines) creates the game grid and randomly places mines on it.
 3.count_adjacent_mines(grid, row, col) counts the number of adjacent mines to a given cell.
