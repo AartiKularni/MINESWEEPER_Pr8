@@ -10,10 +10,15 @@ Libraries
 Code Explanations
 
 1.print_grid(grid) is a function to print the game grid.
+
 2.initialize_grid(size, mines) creates the game grid and randomly places mines on it.
+
 3.count_adjacent_mines(grid, row, col) counts the number of adjacent mines to a given cell.
+
 4.reveal_cell(grid, revealed, row, col) is a recursive function that reveals cells and adjacent cells if they are empty.
+
 5.play_minesweeper(size, mines) is the main game loop where the player interacts with the game
+
 
 About the game:
 Minesweeper is a single-player game in which the player has to clear a square grid containing mines and numbers. The player has to prevent himself from landing on a mine with the help of numbers in the neighbouring tiles.
